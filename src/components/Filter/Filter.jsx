@@ -1,4 +1,3 @@
-// import cl from './Section.module.css';
 import { useDispatch } from 'react-redux';
 import { setFilterContact } from '../../redux/filterSlice';
 
