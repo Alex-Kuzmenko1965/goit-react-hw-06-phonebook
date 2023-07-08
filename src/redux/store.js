@@ -14,6 +14,7 @@ const rootReducer = combineReducers({
 const persistConfig = {
   key: 'contacts',
   storage,
+  blacklist: ['filter'],
 }
 
 // Додавання змін в LocalStorage
